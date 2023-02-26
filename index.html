@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Food List</h2>
+            </div>
+            <blockquote>please write the food you want to eat</blockquote>
+            
+            <div class="meal-search-box">
+                <input type="text" class="search-control" id="search-input">
+                <button type="submit" class="search-btn btn" id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                  </div>
+            </div>
+                  
+
+            <div id="loader"></div>
+
+            <div class="meal-result">
+                <h2 class="title">Results</h2>
+                <div id="meal" style="display: none;">
+                    <!-- meal item -->
+                     <!-- <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="pizza.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>pizza</h3>
+                            <a href="#" class="repice-btn">Yemek Tarifi</a>
+                        </div>
+                    </div> -->
+                    <!-- meal item end -->
+                </div>
+            </div>
+
+
+            <div class="meal-details">
+
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="meal-details-content">
+                    <!-- <h2 class="recipe-title">Yemek İsmi</h2>
+                    <p class="recipe-category">Categori</p>
+                    <div class="recipe-instruct">
+                        <h3>içindekiler</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil quos, facere aspernatur
+                            earum quia ad? Reprehenderit aliquam dicta aperiam ex, at, ipsum accusamus ullam obcaecati
+                            nulla consequuntur sed laboriosam?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam sint culpa aperiam
+                            natus nulla voluptatibus, maxime ex labore ab?</p>
+                    </div>
+                    <div class="recipe-meal-img">
+                        <img src="pizza.jpg" alt="">
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">video izle</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+     </div>
+    <script src="app.js"></script>
+</body>
+</html>
